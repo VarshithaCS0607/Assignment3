@@ -46,3 +46,19 @@ form {
 .forminput{
     border: 2px solid black;
 }
+
+@media (max-width: 768px) {
+    /* Apply responsive styles for screens up to 768px wide */
+    body {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #tipcalculation {
+        padding: 20px;
+    }
+
+    form {
+        grid-template-columns: 1fr;
+    }
+}

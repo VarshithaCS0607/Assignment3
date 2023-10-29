@@ -9,7 +9,7 @@ slider.addEventListener("input", calculateTip);
 
 function calculateTip() {
     if (isNaN(bill_t.value)) {
-        alert("You haven't entered number as an input")
+        alert("You haven't entered number as an input, Enter number and retry!!")
     }
     bill_t.value = parseFloat(bill_t.value).toFixed(2);
     let bill = parseFloat(document.getElementById("bill_total").value);
